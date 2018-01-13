@@ -1,0 +1,17 @@
+INFO    2016-12-26 14:53:34,046 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-12-26 14:53:34,047 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-12-26 14:53:34,047 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-12-26 14:53:34,047 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-12-26 14:53:34,053 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3702
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::INDL901367
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::INDL901367
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1433
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::sql
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPAS270_MADRID
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPAS270_MADRID
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2016-12-26 14:53:34,055 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2016-12-26 14:53:36,075 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2016-12-26 14:54:04,244 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is MSSQL....

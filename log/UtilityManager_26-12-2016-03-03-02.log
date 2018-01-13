@@ -1,0 +1,38 @@
+INFO    2016-12-26 15:03:02,711 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-12-26 15:03:02,712 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-12-26 15:03:02,712 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-12-26 15:03:02,712 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-12-26 15:03:02,718 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3702
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::INDL901367
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::INDL901367
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1433
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::sql
+DEBUG   2016-12-26 15:03:02,719 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPAS270_MADRID
+DEBUG   2016-12-26 15:03:02,720 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPAS270_MADRID
+DEBUG   2016-12-26 15:03:02,720 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2016-12-26 15:03:02,720 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2016-12-26 15:03:02,720 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2016-12-26 15:03:03,383 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2016-12-26 15:03:10,248 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is MSSQL....
+ERROR   2016-12-26 15:09:00,878 [main] MadridImageUploadUtility.DBdataFetcher  - Error Occured While obtaining  Connection: 
+com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:170)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2338)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:1929)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:1917)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1061)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:716)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:841)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at MadridImageUploadUtility.DBdataFetcher.configureConnection(DBdataFetcher.java:109)
+	at MadridImageUploadUtility.DBdataFetcher.init(DBdataFetcher.java:51)
+	at MadridImageUploadUtility.DBdataFetcher.<init>(DBdataFetcher.java:44)
+	at MadridImageUploadUtility.UtilityManager.<init>(UtilityManager.java:67)
+	at MadridImageUploadUtility.UtilityManager.getInstance(UtilityManager.java:87)
+	at MadridImageUploadUtility.UtilityController.main(UtilityController.java:14)

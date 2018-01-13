@@ -1,0 +1,46 @@
+INFO    2016-12-26 15:14:00,843 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-12-26 15:14:00,844 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-12-26 15:14:00,844 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-12-26 15:14:00,844 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-12-26 15:14:00,898 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3702
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::INDL901367
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::INDL901367
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1433
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::sql
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPAS270_MADRID
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPAS270_MADRID
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2016-12-26 15:14:00,929 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2016-12-26 15:14:00,930 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2016-12-26 15:14:07,408 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2016-12-26 15:14:16,000 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is MSSQL....
+ERROR   2016-12-26 15:17:53,107 [main] MadridImageUploadUtility.DBdataFetcher  - Error Occured While obtaining  Connection: 
+com.microsoft.sqlserver.jdbc.SQLServerException: Connection reset
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1368)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:1355)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.read(IOBuffer.java:1532)
+	at com.microsoft.sqlserver.jdbc.TDSReader.readPacket(IOBuffer.java:3274)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:4437)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.startResponse(IOBuffer.java:4389)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$1ConnectionCommand.doExecute(SQLServerConnection.java:1457)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectionCommand(SQLServerConnection.java:1462)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:1931)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:1917)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1061)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:716)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:841)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at MadridImageUploadUtility.DBdataFetcher.configureConnection(DBdataFetcher.java:109)
+	at MadridImageUploadUtility.DBdataFetcher.init(DBdataFetcher.java:51)
+	at MadridImageUploadUtility.DBdataFetcher.<init>(DBdataFetcher.java:44)
+	at MadridImageUploadUtility.UtilityManager.<init>(UtilityManager.java:67)
+	at MadridImageUploadUtility.UtilityManager.getInstance(UtilityManager.java:87)
+	at MadridImageUploadUtility.UtilityController.main(UtilityController.java:14)

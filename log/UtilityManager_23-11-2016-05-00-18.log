@@ -1,0 +1,102 @@
+INFO    2016-11-23 17:00:18,571 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-11-23 17:00:18,572 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-11-23 17:00:18,573 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-11-23 17:00:18,573 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-11-23 17:00:18,606 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-11-23 17:00:18,628 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3700
+DEBUG   2016-11-23 17:00:18,628 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::localhost
+DEBUG   2016-11-23 17:00:18,628 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::localhost
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1521
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::oracle
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPASMAD270
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPASMAD270
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2016-11-23 17:00:18,629 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2016-11-23 17:00:45,431 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2016-11-23 17:00:45,518 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is Oracle....
+INFO    2016-11-23 17:00:46,964 [main] MadridImageUploadUtility.UtilityManager  - Initializing Completed...............................................!!!!!!
+DEBUG   2016-11-23 17:00:46,964 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-11-23 17:00:47,846 [main] MadridImageUploadUtility.UtilityManager  - ###############################
+DEBUG   2016-11-23 17:00:47,846 [main] MadridImageUploadUtility.UtilityManager  - Final Intregen Map to be processed::{1197827=N, 1199432=N, 1199560=N, 1196482=Y, 1253575=N, 1253802=N, 1175736=N, 1201262=N, 1198104=Y, 0874009=N, 1199661=N, 1199669=Y, 1200324=N, 1199970=N, 1158170=Y, 1200144=N, 1254047=N, 1201132=N, 1200819=N, 0647429=N, 1254236=N, 1203460=N, 1048515=Y, 0633781=N, 0171595=N, 0920610=N, 1201084=N, 1199033=N, 1201082=N, 1201065=N, 1200998=N, 0816228=N, 1062202=Y, 1200896=N, 0676726=N, 1254448=N, 1199247=N, 0888376=Y, 1199911=Y, 1200097=N, 1194843=N, 1199491=N, 1194743=N, 0814768=N, 0563651=N, 1205881=N, 1199499=Y, 1254151=Y, 1194940=N, 1199498=N, 1253899=N, 1198492=N, 1156080=Y, 1203552=N, 1199995=N, 1200348=N, 1199544=N, 1200887=N, 1199328=N, 1177330=N, 1201155=Y, 1201254=N, 1198486=N, 1198070=N, 1021910=N, 1254166=N, 1149716=N, 1199428=N, 1254258=N, 0832986=N, 1198672=Y, 1202488=N, 1201044=Y, 0789395=N, 1200409=N, 0453539=N, 1054015=N, 0824107=N, 0697541=N, 1200337=N, 0604810=N, 1198083=N, 0685941=N, 1046219=N, 1198893=N, 1198008=N, 1197969=N, 1254206=Y, 1254346=N, 1198370=N, 1004972=N, 1218042=N, 1215731=N, 1186532=N, 0815866=N, 1254277=N, 1254278=N, 1198601=N, 1200036=N, 1198816=N, 1075225=Y, 0890222=N, 1198509=N, 1198467=N, 1114036=Y, 1114037=Y, 1198154=N, 1199746=N, 1254281=Y, 1199744=N, 0589087=N, 1198417=N, 1197789=N, 1198787=N, 1198414=N, 0492223=N, 1254080=N, 1198616=Y, 1025318=N, 1200255=N, 1199280=N, 1199611=Y, 1199356=N, 1199357=N, 1201208=N, 1201180=Y, 1124476=N, 1199618=N, 1200586=N, 1254293=N, 1198428=N, 0893427=Y, 1201203=N, 1201186=N, 1199808=N, 1200449=Y, 1200840=N, 1254190=Y, 1199955=N, 1199500=N, 1039406=Y, 1062325=Y, 1199779=N, 1159878=Y, 1062326=Y, 0785924=N, 1027618=N, 1200161=N, 1254317=Y, 1199762=N, 1197834=N, 1200574=N, 1254217=N, 1200635=Y, 1199460=N, 1138116=Y, 1232489=N, 1166386=N}; length::158
+DEBUG   2016-11-23 17:00:47,847 [main] MadridImageUploadUtility.UtilityManager  - ###############################
+DEBUG   2016-11-23 17:00:57,773 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,046 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,211 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,291 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,373 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,428 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:58,504 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:59,677 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:59,728 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:59,909 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:00:59,976 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,154 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,307 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,356 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,407 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,552 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,655 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,750 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,848 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:00,953 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,088 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,133 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,290 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,424 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,483 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,540 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,587 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,634 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,752 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,853 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:01,970 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,040 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,172 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,260 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,303 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,382 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,425 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,476 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,519 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,601 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,646 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,750 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,790 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,834 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,874 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:02,962 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,043 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,086 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,125 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,165 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,293 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,334 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,525 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,568 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,650 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,696 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,743 [main] MadridImageUploadUtility.UtilityManager  - -----------------------------------------
+DEBUG   2016-11-23 17:01:03,745 [main] MadridImageUploadUtility.UtilityManager  - ##########################
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Following marks logo are updated successfully successfully::
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - [1048515, 0888376, 1199911, 1194743, 1198672, 1062326]
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Following marks are not eligible for parsing as either their logo is not missing or  sign_code is not of logo type::
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - [1197827, 1199432, 1199560, 0874009, 0816228, 1199498, 1199995, 1199544, 1198486, 1021910, 1149716, 1200409, 1198008, 1197969, 1004972, 1198816, 1198509, 1199746, 1198787, 1200255, 1199618, 1199808, 1199779, 1199762]
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - ##########################
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Following notification files are  parsed successfully::
+INFO    2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - [N201413.XML, N201414.XML, N201415.XML, N201416.XML, N201525.XML]
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - ##########################
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Intregn  are not present in database for following FILE::
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - [1196482, 1253575, 1253802, 1175736, 1201262, 1158170, 1254047, 1201132, 1200819, 0647429, 1254236, 1203460, 0633781, 0920610, 1201084, 1201082, 1201065, 1200998, 1062202, 1200896, 0676726, 1254448, 1194843, 0814768, 0563651, 1205881, 1254151, 1194940, 1253899, 1156080, 1203552, 1200887, 1177330, 1201155, 1201254, 1254166, 1254258, 0832986, 1202488, 1201044, 1054015, 0697541, 0604810, 0685941, 1046219, 1254206, 1254346, 1218042, 1215731, 0815866, 1254277, 1254278, 0890222, 1114036, 1114037, 1254281, 0492223, 1254080, 1025318, 1201208, 1201180, 1124476, 1200586, 1254293, 0893427, 1201203, 1201186, 1200840, 1254190, 1039406, 1027618, 1254317, 1200574, 1254217, 1200635, 1232489, 1166386]
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - ##########################
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Images are not present for following FILE::
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - [1198104, 1199661, 1199669, 1200324, 1199970, 1200144, 0171595, 1199033, 1199247, 1200097, 1199491, 1199499, 1198492, 1200348, 1199328, 1198070, 1199428, 0789395, 0453539, 0824107, 1200337, 1198083, 1198893, 1198370, 1186532, 1198601, 1200036, 1075225, 1198467, 1198154, 1199744, 0589087, 1198417, 1197789, 1198414, 1198616, 1199280, 1199611, 1199356, 1199357, 1198428, 1200449, 1199955, 1199500, 1062325, 1159878, 0785924, 1200161, 1197834, 1199460, 1138116]
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - ##########################
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Processing Completed!!!
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Please check processed details in log file generated in MadridImageUploadUtility folder
+DEBUG   2016-11-23 17:01:03,746 [main] MadridImageUploadUtility.UtilityManager  - Closing database connection..........!!
+DEBUG   2016-11-23 17:01:03,747 [main] MadridImageUploadUtility.UtilityManager  - Database connection closed..........!!
+INFO    2016-11-23 17:01:03,747 [main] MadridImageUploadUtility.UtilityManager  - Processing Completed.......................!!!
+INFO    2016-11-23 17:01:03,747 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+INFO    2016-11-23 17:01:03,747 [main] MadridImageUploadUtility.UtilityManager  - Please check processed details in log file generated in log folder
+INFO    2016-11-23 17:01:03,748 [main] MadridImageUploadUtility.UtilityManager  - ********************************************************

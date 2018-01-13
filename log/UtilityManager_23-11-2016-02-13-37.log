@@ -1,0 +1,15 @@
+INFO    2016-11-23 14:13:38,268 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-11-23 14:13:38,270 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-11-23 14:13:38,270 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-11-23 14:13:38,270 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-11-23 14:13:38,271 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3702
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::localhost
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::localhost
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1433
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::sql
+DEBUG   2016-11-23 14:13:38,298 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPAS270_MADRID
+DEBUG   2016-11-23 14:13:38,299 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPAS270_MADRID
+DEBUG   2016-11-23 14:13:38,299 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPAS//NotificatiionFolder
+DEBUG   2016-11-23 14:13:38,299 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPAS//NotificatiionFolder//images
+DEBUG   2016-11-23 14:13:38,299 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A

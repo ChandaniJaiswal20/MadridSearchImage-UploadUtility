@@ -1,0 +1,75 @@
+INFO    2017-01-04 13:03:34,485 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2017-01-04 13:03:34,486 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2017-01-04 13:03:34,486 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2017-01-04 13:03:34,486 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2017-01-04 13:03:34,488 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3702
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::INDL901367
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::INDL901367
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1433
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::sql
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPAS270_MADRID
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPAS270_MADRID
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2017-01-04 13:03:34,491 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2017-01-04 13:03:36,522 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2017-01-04 13:03:36,523 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is MSSQL....
+ERROR   2017-01-04 13:03:38,788 [main] MadridImageUploadUtility.DBdataFetcher  - Error Occured While obtaining  Connection: 
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'IPAS270_MADRID'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:196)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:246)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:83)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2532)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:1929)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:1917)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1061)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:716)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:841)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at MadridImageUploadUtility.DBdataFetcher.configureConnection(DBdataFetcher.java:109)
+	at MadridImageUploadUtility.DBdataFetcher.init(DBdataFetcher.java:51)
+	at MadridImageUploadUtility.DBdataFetcher.<init>(DBdataFetcher.java:44)
+	at MadridImageUploadUtility.UtilityManager.<init>(UtilityManager.java:67)
+	at MadridImageUploadUtility.UtilityManager.getInstance(UtilityManager.java:87)
+	at MadridImageUploadUtility.UtilityController.main(UtilityController.java:14)
+INFO    2017-01-04 13:03:38,789 [main] MadridImageUploadUtility.UtilityManager  - Initializing Completed...............................................!!!!!!
+DEBUG   2017-01-04 13:03:38,789 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2017-01-04 13:03:39,110 [main] MadridImageUploadUtility.XMLParser  - intregnAttributeNotFoundCounter:::0
+DEBUG   2017-01-04 13:03:39,234 [main] MadridImageUploadUtility.XMLParser  - intregnAttributeNotFoundCounter:::0
+DEBUG   2017-01-04 13:03:39,258 [main] MadridImageUploadUtility.XMLParser  - intregnAttributeNotFoundCounter:::0
+DEBUG   2017-01-04 13:03:39,294 [main] MadridImageUploadUtility.XMLParser  - intregnAttributeNotFoundCounter:::0
+DEBUG   2017-01-04 13:03:39,345 [main] MadridImageUploadUtility.XMLParser  - intregnAttributeNotFoundCounter:::0
+DEBUG   2017-01-04 13:03:39,346 [main] MadridImageUploadUtility.UtilityManager  - ###############################
+DEBUG   2017-01-04 13:03:39,346 [main] MadridImageUploadUtility.UtilityManager  - Final Intregen Map to be processed::{1197827=N, 1196482=Y, 1253575=N, 1253802=N, 1175736=N, 1201262=N, 1198104=Y, 0874009=N, 0604810A=N, 1158170=Y, 1201132=N, 1254047=N, 1200819=N, 1254236=N, 1203460=N, 1048515=Y, 0920610=N, 1201084=N, 1199033=N, 1201082=N, 1201065=N, 1200998=N, 0816228=N, 1062202=Y, 1200896=N, 0676726=N, 1254448=N, 1199247=N, 0888376=Y, 1194843=N, 1194743=N, 1205881=N, 1194940=N, 1254151=Y, 1253899=N, 1198492=N, 1156080=Y, 1203552=N, 1200887=N, 1199328=N, 1177330=N, 0814768A=N, 1201155=Y, 1201254=N, 1198486=N, 1198070=N, 1254166=N, 1149716=N, 1254258=N, 0832986=N, 1198672=Y, 1202488=N, 1201044=Y, 0789395=N, 0563651A=N, 0453539=N, 1054015=N, 0633781A=N, 1198083=N, 0685941A=N, 1046219=N, 1198893=N, 1198008=N, 1197969=N, 1254206=Y, 1198370=N, 1254346=N, 1218042=N, 1215731=N, 1186532=N, 0815866=N, 1254277=N, 1254278=N, 1198601=N, 1198816=N, 1075225=Y, 0890222=N, 1198509=N, 1198467=N, 1114036=Y, 1114037=Y, 1198154=N, 1254281=Y, 0589087=N, 1198417=N, 1197789=N, 1198787=N, 1198414=N, 0492223=N, 1198616=Y, 1254080=N, 1025318=N, 1199280=N, 1199356=N, 1199357=N, 1201180=Y, 1201208=N, 1200586=N, 1124476=N, 1254293=N, 1198428=N, 0893427=Y, 1201203=N, 1201186=N, 0697541A=N, 1200840=N, 1254190=Y, 0647429A=N, 1039406=Y, 1062325=Y, 1159878=Y, 1062326=Y, 1254317=Y, 1197834=N, 1200574=N, 1254217=N, 1200635=Y, 1138116=Y, 1232489=N, 1166386=N}; length::120
+DEBUG   2017-01-04 13:03:39,346 [main] MadridImageUploadUtility.UtilityManager  - ###############################
+INFO    2017-01-04 13:03:39,348 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is MSSQL....
+ERROR   2017-01-04 13:03:39,437 [main] MadridImageUploadUtility.DBdataFetcher  - Error Occured While obtaining  Connection: 
+com.microsoft.sqlserver.jdbc.SQLServerException: Login failed for user 'IPAS270_MADRID'.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:196)
+	at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:246)
+	at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:83)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.sendLogon(SQLServerConnection.java:2532)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:1929)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.access$000(SQLServerConnection.java:41)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:1917)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:4026)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1416)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1061)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:833)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:716)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:841)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at MadridImageUploadUtility.DBdataFetcher.configureConnection(DBdataFetcher.java:109)
+	at MadridImageUploadUtility.DBdataFetcher.init(DBdataFetcher.java:51)
+	at MadridImageUploadUtility.DBdataFetcher.getMarkDetails(DBdataFetcher.java:138)
+	at MadridImageUploadUtility.UtilityManager.processCurrentIntregnInfoFromIP_MARK(UtilityManager.java:379)
+	at MadridImageUploadUtility.UtilityManager.processIntregn(UtilityManager.java:240)
+	at MadridImageUploadUtility.UtilityManager.processNotificationFiles(UtilityManager.java:124)
+	at MadridImageUploadUtility.UtilityController.main(UtilityController.java:16)

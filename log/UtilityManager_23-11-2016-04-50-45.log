@@ -1,0 +1,22 @@
+INFO    2016-11-23 16:50:45,437 [main] MadridImageUploadUtility.UtilityManager  - Initializing Utility...........................................!!!!!
+DEBUG   2016-11-23 16:50:45,438 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-11-23 16:50:45,438 [main] MadridImageUploadUtility.UtilityManager  - =================================================
+DEBUG   2016-11-23 16:50:45,438 [main] MadridImageUploadUtility.UtilityManager  - LOG4JCONFIGFILE:::log4j.properties
+DEBUG   2016-11-23 16:50:45,443 [main] MadridImageUploadUtility.UtilityConfiguration  - loading configuration.....
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - IIOP PORT:::3700
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - iiopHost:::localhost
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseHost:::localhost
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - databasePort:::1521
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseTool:::oracle
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - databaseName:::IPASMAD270
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - userName:::IPASMAD270
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - madridXMLFolder:::D://IPASS_BUILD//madridXml
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - madridImageFolder:::D://IPASS_BUILD//madridXml//images
+DEBUG   2016-11-23 16:50:45,456 [main] MadridImageUploadUtility.UtilityConfiguration  - fileType:::A
+DEBUG   2016-11-23 16:51:15,663 [main] MadridImageUploadUtility.UtilityManager  - Obtaining Database Connection....
+INFO    2016-11-23 16:51:15,702 [main] MadridImageUploadUtility.DBdataFetcher  - Database Type is Oracle....
+INFO    2016-11-23 16:51:17,842 [main] MadridImageUploadUtility.UtilityManager  - Initializing Completed...............................................!!!!!!
+DEBUG   2016-11-23 16:51:17,842 [main] MadridImageUploadUtility.UtilityManager  - ################################################
+DEBUG   2016-11-23 16:51:21,248 [main] MadridImageUploadUtility.UtilityManager  - ###############################
+DEBUG   2016-11-23 16:51:22,837 [main] MadridImageUploadUtility.UtilityManager  - Final Intregen Map to be processed::{1197827=N, 1199432=N, 1199560=N, 1196482=Y, 1253575=N, 1253802=N, 1175736=N, 1201262=N, 1198104=Y, 0874009=N, 1199661=N, 1199669=Y, 1200324=N, 1199970=N, 1158170=Y, 1200144=N, 1254047=N, 1201132=N, 1200819=N, 0647429=N, 1254236=N, 1203460=N, 1048515=Y, 0633781=N, 0171595=N, 0920610=N, 1201084=N, 1199033=N, 1201082=N, 1201065=N, 1200998=N, 0816228=N, 1062202=Y, 1200896=N, 0676726=N, 1254448=N, 1199247=N, 0888376=Y, 1199911=Y, 1200097=N, 1194843=N, 1199491=N, 1194743=N, 0814768=N, 0563651=N, 1205881=N, 1199499=Y, 1254151=Y, 1194940=N, 1199498=N, 1253899=N, 1198492=N, 1156080=Y, 1203552=N, 1199995=N, 1200348=N, 1199544=N, 1200887=N, 1199328=N, 1177330=N, 1201155=Y, 1201254=N, 1198486=N, 1198070=N, 1021910=N, 1254166=N, 1149716=N, 1199428=N, 1254258=N, 0832986=N, 1198672=Y, 1202488=N, 1201044=Y, 0789395=N, 1200409=N, 0453539=N, 1054015=N, 0824107=N, 0697541=N, 1200337=N, 0604810=N, 1198083=N, 0685941=N, 1046219=N, 1198893=N, 1198008=N, 1197969=N, 1254206=Y, 1254346=N, 1198370=N, 1004972=N, 1218042=N, 1215731=N, 1186532=N, 0815866=N, 1254277=N, 1254278=N, 1198601=N, 1200036=N, 1198816=N, 1075225=Y, 0890222=N, 1198509=N, 1198467=N, 1114036=Y, 1114037=Y, 1198154=N, 1199746=N, 1254281=Y, 1199744=N, 0589087=N, 1198417=N, 1197789=N, 1198787=N, 1198414=N, 0492223=N, 1254080=N, 1198616=Y, 1025318=N, 1200255=N, 1199280=N, 1199611=Y, 1199356=N, 1199357=N, 1201208=N, 1201180=Y, 1124476=N, 1199618=N, 1200586=N, 1254293=N, 1198428=N, 0893427=Y, 1201203=N, 1201186=N, 1199808=N, 1200449=Y, 1200840=N, 1254190=Y, 1199955=N, 1199500=N, 1039406=Y, 1062325=Y, 1199779=N, 1159878=Y, 1062326=Y, 0785924=N, 1027618=N, 1200161=N, 1254317=Y, 1199762=N, 1197834=N, 1200574=N, 1254217=N, 1200635=Y, 1199460=N, 1138116=Y, 1232489=N, 1166386=N}; length::158
+DEBUG   2016-11-23 16:51:22,838 [main] MadridImageUploadUtility.UtilityManager  - ###############################
